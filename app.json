@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "mylocation3",
-    "slug": "mylocation3",
+    "name": "Location-Tracker",
+    "slug": "Location-Tracker",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "orientation": "default",
+    "icon": "./assets/images/locationIcon.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/locationIcon.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,21 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/locationIcon.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.alirezarmj.MyLocation"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/locationIcon.jpg"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "262a857c-f614-4119-9fae-e8a5110475e0"
+      }
     }
   }
 }
